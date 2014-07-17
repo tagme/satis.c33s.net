@@ -1,0 +1,47 @@
+{
+    "name": "c33s repos",
+    "homepage": "http://satis.c33s.net",
+    "require-all": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/c33s/AssetManagementBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/Identicon.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/AdmingeneratorGeneratorBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/FormExtensions.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/vegas.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/hinclude.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/mixitup.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/datejs.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/bootstrap-markdown.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/c33s/Propel.git"
+        }
+    ]
+}

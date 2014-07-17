@@ -1,0 +1,13 @@
+
+*.log
+/composer.json.bak
+/vendor/*
+/bin/*
+/web/*
+!/web/.gitkeep
+!/web/favicon.ico
+!/bin/build.bat
+!/bin/build.sh
+!/bin/convert.bat
+!/bin/convert.sh
+!/bin/git-build.sh

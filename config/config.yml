@@ -1,0 +1,244 @@
+name: 'c33s repos'
+homepage: 'http://satis.c33s.net'
+require-all: true
+repositories:
+########################################################################################################################################################                                                 
+# ____ ____ ___  ____ ____ _ ___ ____ ____ _ ____ ____ 
+# |__/ |___ |__] |  | [__  |  |  |  | |__/ | |___ [__  
+# |  \ |___ |    |__| ___] |  |  |__| |  \ | |___ ___] 
+########################################################################################################################################################                                                 
+  - type: vcs
+    url: https://github.com/c33s/AssetManagementBundle.git
+  - type: vcs
+    url: https://github.com/tagme/vegas.git
+  - type: vcs
+    url: https://github.com/tagme/hinclude.git
+  - type: vcs
+    url: https://github.com/tagme/mixitup.git
+  - type: vcs
+    url: https://github.com/tagme/datejs.git
+  - type: vcs
+    url: https://github.com/tagme/bootstrap-markdown.git
+  - type: vcs
+    url: https://github.com/c33s/Propel.git
+    
+# needed because of regex issue in propel1 sluggable behavior
+# https://github.com/propelorm/Propel2/issues/534
+
+
+#    
+#  - type: composer
+#    url: https://packages.zendframework.com/
+
+#    # howdy
+#    - { type: package, package: { name: howdydobar/howdydobar, version: dev-master, dist: { url: 'http://leo.dolcepixels.com/download/jquery/plugins/jquery.howdydo-bar/jquery.howdydo-bar.zip', type: zip } } }
+#    
+#    # jplot
+#    # jqPlot is a plotting and charting plugin for the jQuery Javascript framework. jqPlot produces beautiful line, bar and pie charts with many features
+#    - { type: package, package: { name: cleonello/jqplot, version: 1.0.2, dist: { url: 'https://bitbucket.org/cleonello/jqplot/downloads/jquery.jqplot.1.0.2r1108.zip', type: zip } } }
+#    - { type: package, package: { name: cleonello/jqplot, version: 1.0.3, dist: { url: 'https://bitbucket.org/cleonello/jqplot/downloads/jquery.jqplot.1.0.3r1117.zip', type: zip } } }
+#    - { type: package, package: { name: cleonello/jqplot, version: 1.0.4, dist: { url: 'https://bitbucket.org/cleonello/jqplot/downloads/jquery.jqplot.1.0.4r1121.zip', type: zip } } }
+#    
+#    # g.raphael
+#    # gRaphaël’s goal is to help you create stunning charts on your website. It is based on Raphaël graphics library. Check out the demos to see static and interactive charts in action.
+#    # gRaphaël currently supports Firefox 3.0+, Safari 3.0+, Opera 9.5+ and Internet Explorer 6.0+. 
+#    - { type: package, package: { name: DmitryBaranovskiy/g.raphael, version: 0.5.0, source: { url: 'https://github.com/DmitryBaranovskiy/g.raphael.git', type: git, reference: v0.5 } } }
+#    
+#    # raphael
+#    # Raphaël is a small JavaScript library that should simplify your work with vector graphics on the web. If you want to create your own specific chart or image crop and rotate widget, for example, you can achieve it simply and easily with this library. 
+#    - { type: package, package: { name: DmitryBaranovskiy/raphael, version: 2.1.0, source: { url: 'https://github.com/DmitryBaranovskiy/raphael.git', type: git, reference: v2.1.0 } } }
+#    - { type: package, package: { name: DmitryBaranovskiy/raphael, version: 2.0.2, source: { url: 'https://github.com/DmitryBaranovskiy/raphael.git', type: git, reference: v2.0.2 } } }
+#    - { type: package, package: { name: DmitryBaranovskiy/raphael, version: 2.0.1, source: { url: 'https://github.com/DmitryBaranovskiy/raphael.git', type: git, reference: v2.0.1 } } }
+#    - { type: package, package: { name: DmitryBaranovskiy/raphael, version: 2.0.2, source: { url: 'https://github.com/DmitryBaranovskiy/raphael.git', type: git, reference: v2.0.2 } } }
+#    
+#    # chosen
+#    # Chosen is a JavaScript plugin that makes long, unwieldy select boxes much more user-friendly. It is currently available in both jQuery and Prototype flavors.
+#    - { type: package, package: { name: harvesthq/chosen, version: 0.9.8, source: { url: 'https://github.com/harvesthq/chosen.git', type: git, reference: v0.9.8 } } }
+#    - { type: package, package: { name: harvesthq/chosen, version: 0.9.9, source: { url: 'https://github.com/harvesthq/chosen.git', type: git, reference: v0.9.9 } } }
+#    - { type: package, package: { name: harvesthq/chosen, version: 0.9.10, source: { url: 'https://github.com/harvesthq/chosen.git', type: git, reference: v0.9.10 } } }
+#    - { type: package, package: { name: harvesthq/chosen, version: 0.9.11, source: { url: 'https://github.com/harvesthq/chosen.git', type: git, reference: v0.9.11 } } }
+#   
+#    ## twitter/bootstrap
+#    #- { type: package, package: { name: twitter/bootstrap, version: 2.0.0, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.0.0 } } }
+#    #- { type: package, package: { name: twitter/bootstrap, version: 2.0.1, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.0.1 } } }
+#    #- { type: package, package: { name: twitter/bootstrap, version: 2.0.2, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.0.2 } } }
+#    #- { type: package, package: { name: twitter/bootstrap, version: 2.0.3, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.0.3 } } }
+#    #- { type: package, package: { name: twitter/bootstrap, version: 2.0.4, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.0.4 } } }
+#    #- { type: package, package: { name: twitter/bootstrap, version: 2.1.0, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.1.0 } } }
+#    #- { type: package, package: { name: twitter/bootstrap, version: 2.2.0, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.2.0 } } }
+#    #- { type: package, package: { name: twitter/bootstrap, version: 2.2.1, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.2.1 } } }
+#    #- { type: package, package: { name: twitter/bootstrap, version: 2.2.2, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.2.2 } } }
+#    #- { type: vcs, url: 'https://github.com/twitter/bootstrap.git' } #no composer
+#    
+#    #html5shiv
+#    - { type: package, package: { name:  afarkas/html5shiv, version: 3.6.1, source: { url: 'https://github.com/aFarkas/html5shiv.git', type: git, reference: 3.6.1 } } }
+#    
+#    
+#    # jehu/fire-php-bundle
+#    - { type: package, package: { name: jehu/fire-php-bundle, version: dev-master, source: { url: 'https://github.com/Jehu/FirePHPBundle.git', type: git, reference: origin/master } } }
+#
+#    # modernizr/modernizr
+#    # Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
+#    - { type: package, package: { name: modernizr/modernizr, version: 2.5.3, source: { url: 'https://github.com/Modernizr/Modernizr.git', type: git, reference: v2.5.3 } } }
+#    - { type: package, package: { name: modernizr/modernizr, version: 2.6.1, source: { url: 'https://github.com/Modernizr/Modernizr.git', type: git, reference: v2.6.1 } } }
+#    - { type: package, package: { name: modernizr/modernizr, version: 2.6.2, source: { url: 'https://github.com/Modernizr/Modernizr.git', type: git, reference: v2.6.2 } } }
+#
+#    # yuicompressor/yuicompressor
+#    # YUI Compressor is an open source tool that supports the compression of both JavaScript and CSS files
+#    #- { type: package, package: { name: yuicompressor/yuicompressor, version: 2.4.7, dist: { url: 'http://yui.zenfs.com/releases/yuicompressor/yuicompressor-2.4.7.zip', type: zip } } }
+#    - { type: package, package: { name: yuicompressor/yuicompressor, version: 2.4.2, dist: { url: 'https://github.com/downloads/yui/yuicompressor/yuicompressor-2.4.2.zip', type: zip } } }
+#    - { type: package, package: { name: yuicompressor/yuicompressor, version: 2.4.6, dist: { url: 'https://github.com/downloads/yui/yuicompressor/yuicompressor-2.4.6.zip', type: zip } } }
+#    - { type: package, package: { name: yuicompressor/yuicompressor, version: 2.4.7, dist: { url: 'https://github.com/downloads/yui/yuicompressor/yuicompressor-2.4.7.zip', type: zip } } }
+#
+#
+#    # fortawesome/font-awesome
+#    # the iconic font designed for use with Twitter Bootstrap
+#    - { type: package, package: { name: fortawesome/font-awesome, version: 1.0.0, source: { url: 'https://github.com/FortAwesome/Font-Awesome.git', type: git, reference: v1.0.0 } } }    
+#    - { type: package, package: { name: fortawesome/font-awesome, version: 2.0.0, source: { url: 'https://github.com/FortAwesome/Font-Awesome.git', type: git, reference: 2.0.0 } } }    
+#    - { type: package, package: { name: fortawesome/font-awesome, version: dev-master, source: { url: 'https://github.com/FortAwesome/Font-Awesome.git', type: git, reference: origin/master } } }
+#    
+#########################################################################################################################################################  
+## ___  ____ ____ _  _ ____ ____ ____ ____ 
+## |__] |__| |    |_/  |__| | __ |___ [__  
+## |    |  | |___ | \_ |  | |__] |___ ___] 
+#########################################################################################################################################################                                       
+#            
+#    # c33s/propel
+#    - type: package
+#      package:
+#        name: c33s/propel
+#        version: 1.0
+#        type: metapackage
+#        require:
+#            propel/propel-bundle:                               1.1.*
+#            willdurand/propel-typehintable-behavior:            1.0.*
+#          
+#    # c33s/develop
+#    - type: package
+#      package:
+#        name: c33s/develop
+#        version: 1.0
+#        type: metapackage
+#        require:
+#            willdurand/faker-bundle:                            dev-master
+#            raulfraile/ladybug-bundle:                           dev-master
+#            jehu/fire-php-bundle:                               dev-master
+#
+#    # c33s/design
+#    - type: package
+#      package:
+#        name: c33s/design
+#        version: 1.0
+#        type: metapackage
+#        require:
+#            twitter/bootstrap:                                  2.0.*
+#            c33s/static-page-content-bundle:                    1.0.*
+#            modernizr/modernizr:                                2.5.3
+#            fortawesome/font-awesome:                           2.0.*
+#            #howdydobar/howdydobar:                              1.0.*
+#            
+#    # c33s/admingenerator
+#    - type: package
+#      package:
+#        name: c33s/admingenerator
+#        version: 1.0
+#        type: metapackage
+#        require:
+#            cedriclombardot/admingenerator-generator-bundle:    dev-master
+#            cedriclombardot/admingenerator-user-bundle:         dev-master
+#            
+#    # c33s/symfony-standard
+#    - type: package
+#      package:
+#        name: c33s/symfony-standard
+#        version: 2.1
+#        type: metapackage
+#        require:
+#            symfony/framework-standard-edition:                 2.1.*
+#            yuicompressor/yuicompressor:                        2.4.*
+#            leafo/lessphp:                                      0.3.*
+#            c33s/static-page-content-bundle:                    1.0.*
+#            
+#   # c33s/symfony-extended
+#    - type: package
+#      package:
+#        name: c33s/symfony-extended
+#        version: 2.1
+#        type: metapackage
+#        require:
+#            c33s/symfony-standard:                              2.1.*
+#            friendsofsymfony/user-bundle:                       dev-master
+#            #c33s/standard:                                      1.0.*
+#            c33s/develop:                                       1.0.*
+#            c33s/design:                                        1.0.*
+
+########################################################################################################################################################
+# _    ____ ____ ____ ____ _   _ 
+# |    |___ | __ |__| |     \_/  
+# |___ |___ |__] |  | |___   |   
+########################################################################################################################################################
+
+
+
+
+
+
+
+#    igorw/composer-yaml:                                dev-master
+#    c33s/symfony-standard:                              2.1.*
+#    c33s/propel:                                        1.0.*
+#    c33s/develop:                                       1.0.*
+#    c33s/design:                                        1.0.*
+#    friendsofsymfony/user-bundle:                       dev-master
+#    c33s/admingenerator:                                1.0
+#    #howdydobar/howdydobar:                              1.0.*
+#################################################################################################################################################
+#################################################################################################################################################
+#################################################################################################################################################
+#################################################################################################################################################
+#################################################################################################################################################
+#################################################################################################################################################
+#https://github.com/ornicar/ApcBundle
+
+
+
+
+   # - { type: vcs, url: 'https://github.com/twitter/bootstrap.git' } #no composer
+   # - { type: vcs, url: 'https://github.com/FortAwesome/Font-Awesome.git' } #no composer
+   # - { type: vcs, url: 'https://github.com/Modernizr/Modernizr.git' } #no composer
+   # - { type: vcs, url: 'https://github.com/Jehu/FirePHPBundle.git' } #no composer
+#    - { type: vcs, url: 'http://github.com/mycompany/privaterepo' }
+#  - { type: package, name: 'twitter/bootstrap', version: 2.0.2}
+#    - { type: vcs, url: 'http://github.com/mycompany/privaterepo' }
+#    - { type: vcs, url: 'http://svn.example.org/private/repo' }
+#    - { type: vcs, url: 'http://github.com/mycompany/privaterepo2' }
+
+#https://github.com/guzzle/guzzle
+
+
+#name: 'My Repository'
+#homepage: 'http://packages.example.org'
+#repositories:
+#    - { type: vcs, url: 'http://github.com/mycompany/privaterepo' }
+#    - { type: vcs, url: 'http://svn.example.org/private/repo' }
+#    - { type: vcs, url: 'http://github.com/mycompany/privaterepo2' }
+#require-all: true
+
+
+
+#    - { type: package, package: { name: twitter/bootstrap, version: 2.0.2, source: { url: 'https://github.com/twitter/bootstrap.git', type: git, reference: v2.0.1 } } }
+
+#    - type: package
+#    package:
+#        name:       yuicompressor/yuicompressor
+#        version:    2.4.7
+#        dist :      { url: 'http://yui.zenfs.com/releases/yuicompressor/yuicompressor-2.4.7.zip', type: zip }
+#        
+#  - type: package
+#    package:
+#        name:       vworldat/faker
+#        replace:    { "fzaninotto/faker" : "*" }
+#        provide:    { "fzaninotto/faker" : "*" }
+#        autoload:   { "psr-0": { "Faker": "src/" } }
+#        version:    dev-master
+#        source:     { url: 'https://github.com/vworldat/Faker.git', type: git, reference: test_future_dates }

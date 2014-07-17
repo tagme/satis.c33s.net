@@ -1,0 +1,14 @@
+{
+    "name": "c33s/satis-c33s-net",
+    "description": "Reposiory",
+    "homepage": "http://satis.c33s.net",
+    "minimum-stability": "dev",
+    "require": {
+        "composer/composer": "1.0.*@dev",
+        "composer/satis": "dev-master",
+        "c33s/composer-yaml": "1.0.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
