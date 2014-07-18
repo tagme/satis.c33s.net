@@ -14,18 +14,23 @@ repositories:
   - type: vcs
     url: https://github.com/tagme/hinclude.git
   - type: vcs
-    url: https://github.com/tagme/mixitup.git
-  - type: vcs
     url: https://github.com/tagme/datejs.git
   - type: vcs
     url: https://github.com/tagme/bootstrap-markdown.git
-  - type: vcs
-    url: https://github.com/c33s/Propel.git
     
 # needed because of regex issue in propel1 sluggable behavior
 # https://github.com/propelorm/Propel2/issues/534
+  - type: vcs
+    url: https://github.com/c33s/Propel.git
 
+# needed until bootstrap-bundle 2.1.* leaves beta stage
+  - type: vcs
+    url: https://github.com/tagme/bootstrap-bundle
 
+# currently tagged and working
+#  - type: vcs
+#      url: https://github.com/tagme/mixitup.git
+#
 #    
 #  - type: composer
 #    url: https://packages.zendframework.com/

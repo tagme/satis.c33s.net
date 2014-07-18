@@ -9,27 +9,11 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/tagme/Identicon.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/tagme/AdmingeneratorGeneratorBundle.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/tagme/FormExtensions.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/tagme/vegas.git"
         },
         {
             "type": "vcs",
             "url": "https://github.com/tagme/hinclude.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/tagme/mixitup.git"
         },
         {
             "type": "vcs",
@@ -42,6 +26,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/c33s/Propel.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/bootstrap-bundle"
         }
     ]
 }
