@@ -25,6 +25,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/tagme/famfamfam-flags"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/c33s/Propel.git"
         },
         {
