@@ -29,6 +29,14 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/tagme/propel-taggable-behavior.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/SmirikTaggableBundle.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/c33s/Propel.git"
         },
         {

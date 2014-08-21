@@ -19,7 +19,11 @@ repositories:
     url: https://github.com/tagme/bootstrap-markdown.git
   - type: vcs
     url: https://github.com/tagme/famfamfam-flags
-
+  - type: vcs
+    url: https://github.com/tagme/propel-taggable-behavior.git
+  - type: vcs
+    url: https://github.com/tagme/SmirikTaggableBundle.git
+    
 # needed because of regex issue in propel1 sluggable behavior
 # https://github.com/propelorm/Propel2/issues/534
   - type: vcs
