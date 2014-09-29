@@ -33,6 +33,11 @@ repositories:
   - type: vcs
     url: https://github.com/tagme/bootstrap-bundle
 
+# needed until 2.1.* branch is fully tested and ready
+  - type: vcs
+    url: https://github.com/tagme/LexikTranslationBundle
+
+
 # currently tagged and working
 #  - type: vcs
 #      url: https://github.com/tagme/mixitup.git

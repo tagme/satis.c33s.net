@@ -42,6 +42,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/tagme/bootstrap-bundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tagme/LexikTranslationBundle"
         }
     ]
 }
